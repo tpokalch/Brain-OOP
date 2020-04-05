@@ -21,7 +21,7 @@ CycleEnd::CycleEnd()
 	// correspond to previous element in stack
 	openBrackets.pop();
 
-	_data = _data->getInstance();
+	_data = DataPointer::getInstance();
 }
 
 CycleEnd::~CycleEnd()

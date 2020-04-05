@@ -22,7 +22,7 @@ static std::shared_ptr<DecrementData>instance;
 
 DecrementData::DecrementData()
 {
-	_data = _data->getInstance();
+	_data = DataPointer::getInstance();
 }
 
 std::shared_ptr<DecrementData> DecrementData::instance = 0;

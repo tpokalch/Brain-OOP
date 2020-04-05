@@ -7,7 +7,7 @@ extern InstructionPointer currentInstance;
 CycleBegin::CycleBegin()
 {
 	openBrackets.push(currentInstance);
-	_data = _data->getInstance();
+	_data = DataPointer::getInstance();
 }
 
 CycleBegin::~CycleBegin()

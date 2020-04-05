@@ -22,6 +22,6 @@ std::shared_ptr<Print> Print::instance = 0;
 
 Print::Print()
 {
-	_data = _data->getInstance();
+	_data = DataPointer::getInstance();
 }
 
