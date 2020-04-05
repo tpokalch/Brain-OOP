@@ -11,8 +11,5 @@ public:
         virtual void Execute(InstructionPointer &IP) const = 0;
 };
 
-//extern std::stack<InstructionPointer> openBrackets;
-//extern InstructionPointer currentInstance;
-
 #endif
 

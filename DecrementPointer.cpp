@@ -3,7 +3,7 @@
 
 DecrementPointer::DecrementPointer()
 {
-	_data = _data->getInstance();
+	_data = DataPointer::getInstance();
 }
 
 DecrementPointer::~DecrementPointer()

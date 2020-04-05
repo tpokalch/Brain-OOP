@@ -20,7 +20,7 @@ std::shared_ptr<IncrementData> IncrementData::getInstance()
 
 IncrementData::IncrementData()
 {
-	_data = _data->getInstance();
+	_data = DataPointer::getInstance();
 }
 
 std::shared_ptr<IncrementData>IncrementData::instance = 0;

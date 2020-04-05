@@ -3,7 +3,7 @@
 
 IncrementPointer::IncrementPointer()
 {
-	_data = _data->getInstance();
+	_data = DataPointer::getInstance();
 }
 
 IncrementPointer::~IncrementPointer()

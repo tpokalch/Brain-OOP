@@ -7,6 +7,17 @@
 #include "DecrementPointer.hpp"
 #include "Print.hpp"
 
+enum	eCommandType
+{
+	eIncrementData = 0,
+	eDecrementData,
+	eIncrementPointer,
+	eDecrementPointer,
+	eCycleBegin,
+	eCycleEnd,
+	ePrint,
+};
+
 class CommandFactory
 {
 public:

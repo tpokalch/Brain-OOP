@@ -2,6 +2,9 @@
 #include "Compiler.hpp"
 #include "CommandFactory.hpp"
 
+// for the visibility between corresponding bracket objects
+// and the visibility of the iterator that points to the current
+// being pushed
 std::stack<InstructionPointer> openBrackets;
 InstructionPointer currentInstance;
 
