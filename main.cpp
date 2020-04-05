@@ -26,5 +26,6 @@ int	main(int argc, char **argv)
 	{
 		std::cout << "Exception: " << e.what() << std::endl;
 	}
+	system("leaks -q brainfuck");
 }
 
